@@ -1,14 +1,10 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 2%;
 }
-
-
-
 h1 {
     font-family: "Special Elite", system-ui;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -21,8 +17,6 @@ body {
     color: rgb(255, 255, 255);
     font-family: "Manjari", sans-serif;
     background-blend-mode: darken;
-    
-    
 }
 header {
     font-size: 2rem;
@@ -38,6 +32,7 @@ form input, form button {
     font-size: 2rem;
     border: none;
     background: white;
+    box-sizing: border-box;
 }
 form button {
     color: gray;
@@ -48,7 +43,6 @@ form button {
 form button:hover{
     background: gray;
     color: white;
-
 }
 .todo-container {
     display: flex;
@@ -113,15 +107,10 @@ select {
     color: gray;
     width: 10rem;
     cursor: pointer;
-    padding: 1rem;
 }
 .select::after {
-    content: "\25BC";
-    position: absolute;
     background: gray;
-    top: 0;
-    right: 0;
-    padding: 1rem;
+    padding: 0.2rem;
     pointer-events: none;
     transition: all 0.3s ease;
 }
